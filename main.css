@@ -54,11 +54,3 @@ p {
 
     }
 }
-@media  (min-width:768px) and ( max-width:991px) {
-    section {
-        float:left;
-        width: 50.33%; /* three containers (use 25% for four, and 50% for two, etc) */
-        padding: 10px; /* if you want space between the images */
-        margin: 3px;
-    }
-}
