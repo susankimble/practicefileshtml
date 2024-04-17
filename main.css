@@ -1,0 +1,64 @@
+h1 { text-align: center;
+    
+    
+}
+section {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: gray;
+    margin-bottom: 10px;
+   
+    
+      
+   
+}
+p {
+    clear: both;
+}
+.chicken {
+    float:right;
+    width: 150px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid black;
+    background-color: pink;
+}
+.pork {
+    float:right;
+    width: 150px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid black;
+    background-color: red;
+}.beef {
+    float:right;
+    width: 150px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid black;
+    background-color: yellow;
+}
+@media (min-width:992px)  {
+    body{
+        background: rgb(164, 228, 232);}
+    section {
+        float:left;
+        width: 32.33%; /* three containers (use 25% for four, and 50% for two, etc) */
+        padding: 10px; /* if you want space between the images */
+        margin: 3px;
+    }
+    .beef, .pork, .chicken {
+        position:relative;
+        top: -11px;
+        right: -11px;
+
+    }
+}
+@media  (min-width:768px) and ( max-width:991px) {
+    section {
+        float:left;
+        width: 50.33%; /* three containers (use 25% for four, and 50% for two, etc) */
+        padding: 10px; /* if you want space between the images */
+        margin: 3px;
+    }
+}
