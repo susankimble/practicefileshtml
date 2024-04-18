@@ -2,6 +2,7 @@ h1 { text-align: center;
     
     
 }
+* {box-sizing: border-box;}
 section {
     box-sizing: border-box;
     border: 1px solid black;
@@ -53,4 +54,22 @@ p {
         right: -11px;
 
     }
+}
+
+@media (min-width:768px)
+{
+
+    section {
+        float:left;
+        width: 49.00%; /* three containers (use 25% for four, and 50% for two, etc) */
+        padding: 10px; /* if you want space between the images */
+        margin: 3px;
+    }
+    #porkp {
+        width:99%;
+    }
+    .beef, .pork, .chicken {
+        position:relative;
+        top: -11px;
+        right: -11px;
 }
